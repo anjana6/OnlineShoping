@@ -1,0 +1,142 @@
+div.header{
+	background-color: black;
+	color: white;
+	padding: 20px;
+	
+}
+
+div.header ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    /*position: fixed;*/
+    width:1300px;
+    
+
+}
+div.header ul li{
+	/*display: inline;*/
+	float: left;
+	border-right: 1px solid #bbb;
+
+}
+
+ div.header ul li:last-child {
+    border-right: none;
+}
+ div.header ul li a {
+	
+	display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 130px;
+    text-decoration: none;
+	
+}
+
+
+/*div.lside{
+	line-height: 50px;
+	background-color: #eeeeee;
+	height: 400px;
+	width: 200px;
+	float: left;
+}*/
+
+div.lside ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 300px;
+	background-color: #f1f1f1;
+	border: 1px solid #555;
+	float: left;
+	border: 0;
+}
+
+div.lside ul li{
+	
+	/*float: left;*/
+	text-align: center;
+	border-bottom: 1px solid #555;
+
+}
+
+div.lside ul li a {
+	
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 23px 80px;
+    text-decoration: none;
+	
+}
+div.lside ul li:last-child {
+    border-bottom: none;
+}
+div.lside ul li a.active{
+	background-color: #4CAF50;
+	color: white;
+}
+
+div.lside ul li a:hover:not(.active){
+	background-color: #555;
+	color: white;
+}
+
+
+div.p1,div.p2,div.p3,div.p4,div.p5,div.p6,div.p7,div.p8,div.p9,div.p10{
+			background-color: #eeeeee;
+			border: 4px solid grey;
+			padding: 10px;
+			height: 150px;
+			width: 150px;
+			float: left;
+			margin: 10px;
+
+		}
+div.footer{
+
+	background-color: black;
+	color: white;
+
+	clear: both;
+	text-align: left;
+	padding: 10px;
+
+}
+
+.fo1{
+    width: 300px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 40px;
+    border: 1px solid red;
+    margin: 10px;
+    display:inline-block;    
+}
+
+.footer2 div{
+    margin: 0;
+    float: left;
+    position: relative;
+}
+.ad1 {
+    
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: 0;
+}
+
+
+
+
+div.lside a:link    {color:green; background-color:transparent; text-decoration:none}
+div.lside a:visited {color:purple; background-color:transparent; text-decoration:none}
+div.lside a:hover   {color:red; background-color:transparent; text-decoration:underline}
+div.lside a:active  {color:yellow; background-color:transparent; text-decoration:underline}

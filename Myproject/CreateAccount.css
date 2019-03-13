@@ -1,0 +1,83 @@
+div.header{
+	background-color: black;
+	/*color: white;*/
+	padding: 20px;
+	/*margin: 20px;*/
+}
+
+div.header ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    /*position: fixed;*/
+    width:1300px;
+    
+
+}
+div.header ul li{
+	/*display: inline;*/
+	float: left;
+	border-right: 1px solid #bbb;
+
+}
+
+ div.header ul li:last-child {
+    border-right: none;
+}
+ div.header ul li a {
+	
+	display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 130px;
+    text-decoration: none;
+	
+}
+
+
+
+.CreateAccount{
+		width: 500px;
+		height: 800px;
+		background: #000;
+		color: white;
+		top: 30%;
+		left: 40%;
+		position: absolute;
+		padding: 20px 70px;
+		box-sizing: border-box;
+	}
+
+	h1{
+		text-align: center;
+	}
+
+	.CreateAccount input[type="text"], input[type="Password"],input[type="Email"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+	.CreateAccount input[type="submit"]{
+	text-align: center;
+	border: none;
+	height: 30px;
+	width: 80px;
+	background: #fb2525;
+	color: #fff;
+	border-radius: 10px;
+	}
+
+	.CreateAccount input[type="submit"]:hover{
+	cursor: pointer;
+	background: green;
+	color: #000;
+}
+	.CreateAccount input[type="submit"]:active{
+		border-color: #111;
+	}     

@@ -1,0 +1,125 @@
+div.home1{
+
+	background-image: url('photo/Background/2.jpg');
+	color: white;
+	/*padding: 20px;
+	margin: 20px;*/
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 0;
+	padding-left: 20px;
+
+
+}
+
+div.home1 ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    /*position: fixed;*/
+    width:1300px;
+    
+
+}
+ li{
+	/*display: inline;*/
+	float: left;
+	border-right: 1px solid #bbb;
+
+}
+
+ li:last-child {
+    border-right: none;
+}
+ li a {
+	
+	display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 130px;
+    text-decoration: none;
+	
+}
+
+input[type="text"]{
+	padding: 8px;
+	
+	width: 50%;
+}
+input[type="submit"]{
+	padding: 8px;
+}
+input[type="submit"] : hover {
+	cursor: pointer;
+}
+
+
+
+/*ul#menu li a:link    {color:green; background-color:transparent; text-decoration:none}*/
+ .act{background-color: #4CAF50;}
+ li a:hover   {background-color: #555;}
+/*ul#menu li a:active  {background-color: #4CAF50;}*/
+
+div.mp1{
+	background-color: #eeeeee;
+			border: 4px solid grey;
+			padding: 10px;
+			height: 200px;
+			width:100%;
+			float: left;
+			
+
+}
+
+div.p1,div.p2,div.p3,div.p4,div.p5,div.p6,div.p7,div.p8,div.p9,div.p10{
+			background-color: #eeeeee;
+			border: 4px solid grey;
+			padding: 10px;
+			height: 350px;
+			width: 200px;
+			float: left;
+			margin: 10px;
+
+		}
+.main{
+			padding: 30px;
+			
+		}
+
+div.footer{
+
+	background-color: black;
+	color: white;
+
+	clear: both;
+	text-align: left;
+	padding: 10px;
+
+}
+
+.fo1{
+    width: 300px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 40px;
+    border: 1px solid red;
+    margin: 10px;
+    display:inline-block;    
+}
+
+.footer2 div{
+    margin: 0;
+    float: left;
+    position: relative;
+}
+.ad1 {
+    
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: 0;
+}
